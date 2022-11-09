@@ -1,0 +1,60 @@
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 20px;
+  background-image: radial-gradient(rgb(0, 0, 0), 20%, transparent 20%);
+  background-position: 500 500, 300px 300px;
+  background-size: 4px 4px;
+  width: 100%;
+}
+
+.coursecard {
+  background-color: whitesmoke;
+  width: 250px;
+
+}
+.coursename:hover{
+  color:rgb(86, 13, 203);
+}
+
+.coursecard:hover {
+  transition: box-shadow .3s;
+  box-shadow: 10px 10px grey;
+
+}
+
+.coursecardtop {
+  background-color: rgb(86, 13, 203);
+  background-image: radial-gradient(grey);
+  color: white;
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+  size: 1rem;
+}
+
+.coursecardbottom {
+  padding: 20px;
+}
+
+.button {
+  background-color: rgb(255, 196, 0);
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+}
+
+.button:hover {
+  background-color: rgb(254, 134, 188);
+  transition: box-shadow .3s;
+  box-shadow: 0 0 5px 5px lightgray;
+
+}
