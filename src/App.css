@@ -50,11 +50,12 @@
   align-items: center;
   width: 120px;
   height: 30px;
+  border: 0px;
+  font-weight: bold;
 }
 
 .button:hover {
   background-color: rgb(254, 134, 188);
   transition: box-shadow .3s;
   box-shadow: 0 0 5px 5px lightgray;
-
 }
