@@ -59,3 +59,9 @@
   transition: box-shadow .3s;
   box-shadow: 0 0 5px 5px lightgray;
 }
+/*style for RegisterFrom*/
+input {
+  display: block;
+  padding: 5px;
+  height: 25px;
+}
